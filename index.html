@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz App</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<script type="text/javascript" src="jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	<img id="logo" src="images/BcLogo.png" />
+
+	<div id="content">
+
+		<div class="question">	
+			<p class = "qNumber">Question 1 of 5</p>	
+			<p class="question">Who is the author of the first 5 books of the Bible, known as the Pentateuch?</p>
+		</div>
+
+		<div class="answer">
+		
+		    <form class="answer">
+				<input type="radio" name="answer1" value="0">Moses<br>
+				<input type="radio" name="answer1" value="1">Jesus<br>
+				<input type="radio" name="answer1" value="2r">Nebuchadnezzar<br>
+				<input type="radio" name="answer1" value="3">Solomon
+			</form>
+		</div>
+
+		
+		<div id="submitContainer">
+			<a id="btnContainer">
+		    Submit
+			</a>
+		</div>
+
+	</div><!-- end of content div -->
+		
+
+	<div id="overlay">
+		<div id="overlayBg">
+		</div>
+		<div id="explanation">
+			
+		</div>		
+	</div>
+	
+</body>
+</html>

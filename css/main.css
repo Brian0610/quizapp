@@ -1,0 +1,258 @@
+body {
+      background: black url('../images/sinai.jpg') no-repeat top center; 	 
+ background-size: 100%; 
+
+}
+
+#logo {
+	    margin: 15px; 
+}
+
+#content {
+	     width: 580px;
+	    height: 450px;
+       	margin: auto;
+	margin-top: 30px;
+ border-radius: 30px; 
+	background: linear-gradient(#FFF, #fcfcb2);
+	   opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+       z-index: -1; 
+       
+}
+
+div.question {
+  border-bottom: 1px dotted purple;
+  height: 140px;
+	
+}
+
+p.qNumber {
+	font-family: Lato; 
+      font-size: 16px; 
+ text-transform: uppercase;
+	 text-align: center; 
+	padding-top: 15px;  
+
+}
+
+p.question {
+	    display: block; 
+	      width: 520px; 
+	font-family: Lato; 
+	  font-size: 25px; 
+	font-weight: bold; 
+	line-height: 40px; 	
+	     margin: auto;
+    padding-top: 15px; 
+/* padding-bottom: 20px; */
+}
+
+div.answer {
+	font-family: Lato; 
+	  font-size: 25px; 
+	line-height: 40px;
+		 height: 200px;
+		 padding: 0px;
+}
+
+div.factContainer {
+	    height: 200px;
+		
+}
+
+div.answer form {
+	      width: 350px; 
+	     margin: auto; 	 
+	    position: relative;
+	    top: 30px;
+}
+
+#submitContainer {
+	
+	height: 100px;
+
+}
+
+#btnContainer {
+		display: block; 
+	     border: 5px solid purple;
+	      width: 150px; 
+	font-family: Lato; 
+	  font-size: 25px; 
+	font-weight: bold;
+	line-height: 40px; 
+     text-align: center; 
+ text-transform: uppercase;
+	      color: purple;
+		margin: auto; 
+		position: relative;
+		top: 30px;
+*/
+}
+
+#btnContainer:hover {
+	background-color: purple; 
+	color: #fcfcb2; 
+}
+
+
+#overlay {
+	      width: 100%;  
+	     height: 100%;
+	   position: absolute;
+	        top: 0;
+           left: 0;
+    	display: none; 
+	
+}
+
+#overlayBg {
+	       width: 100%; 
+	      height: 100%; 
+background-color: black; 
+	     opacity: 0.6; 
+}	
+
+ 
+#explanation {
+	       width: 580px;
+          height: 450px;	
+   border-radius: 30px; 
+	/*border: 5px solid purple; */ 
+      background: radial-gradient(#FFF, #E5E5E5); 
+background-color: white; 
+	      margin: auto;
+ 	     opacity: .999; 
+ 	    position: relative;
+ 	  margin-top: -504px; 
+ 	
+ 		 
+} 	
+
+#nextBtn {
+	     display: block; 
+	      border: 5px solid purple;
+	       width: 150px; 
+	 font-family: Lato; 
+	   font-size: 25px; 
+	 line-height: 40px;
+	 font-weight: bold; 
+      text-align: center; 
+  text-transform: uppercase;
+	       color: purple;
+	      margin: auto; 
+	    position: relative;
+		     top: 30px;
+		
+}
+
+#nextBtn:hover {
+	background-color: purple; 
+	color: #fcfcb2; 
+}
+
+
+
+.correct, .incorrect {	
+	 font-family: Lato;
+	   font-size: 50px;  
+  text-transform: uppercase;
+	  text-align: center; 
+	       color: green;
+	 font-weight: bold;
+	       width: 100%; 
+	      height: 90px;
+	   padding-top: 50px;
+	      	
+}
+
+.incorrect { color: red; }
+
+.quickFact {
+ 	     display: block; 
+    	   width: 400px; 
+    	  height: 200px;
+     font-family: Lato; 
+       font-size: 16px; 
+     font-weight: bold; 
+      text-align: center; 
+     line-height: 30px; 	
+          margin: auto;
+     padding-top: 20px; 
+	 
+}
+
+
+
+
+
+/*--------   END OF QUIZ PAGE -----------------*/
+
+div.complete {  
+  height: 140px;
+ 
+	
+}
+
+p.complete {
+	    display: block; 
+	      width: 520px; 
+	font-family: Lato; 
+	  font-size: 30px; 
+	font-weight: bold; 
+	line-height: 40px;
+	 text-align: center;  	
+	     margin: auto;
+	   position: relative; 
+	        top: 40px; 
+      
+}
+
+div.score {  
+  height: 200px;
+	
+}
+
+p.score {
+	font-family: Lato; 
+	  font-size: 25px; 
+    line-height: 40px;
+	 text-align: center; 
+		 height: 200px;
+	    padding: 30px; 
+	   position: relative
+            
+}
+
+p.score span {
+	font-family: Lato; 
+	font-size: 50px; 
+	font-weight: bold; 
+	color: red;
+}
+
+div.restart {
+	height: 100px; 
+}
+
+#restartBtn {
+	     display: block; 
+	      border: 5px solid purple;
+	       width: 150px; 
+	 font-family: Lato; 
+	   font-size: 25px; 
+	 line-height: 40px;
+	 font-weight: bold; 
+      text-align: center; 
+  text-transform: uppercase;
+	       color: purple;
+	      margin: auto; 
+	    position: relative;
+		     top: 30px
+}
+
+#restartBtn:hover {
+	background-color: purple; 
+	color: #fcfcb2; 
+}
